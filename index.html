@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html land="en-US">
+<!--
+ Author: Tahj Yearby
+ Class:  Software Engineering
+ Project: Lab 2 / Course Syllabus
+ Description: This is the first version of my Course Syllabus application and is being submitted as part of Lab 2.
+-->
+    <head>
+        <title>monopolyDiceRoller</title>
+        <link rel="stylesheet" href="diceRoller.css">
+        <script src="diceRoller.js"></script>
+        <meta charset="UTF-8">    
+    </head>
+    <body onload="RollDice()">
+        <h1>Monopoly</h1>
+        <h2>Rollin' Through the City</h2>
+        Die 1: <input id="die1" type="text" value="" size="5" disabled> <!--These 4 lines set up the fields that display the results of the dice roll-->
+        Die 2: <input id="die2" type="text" value="" size="5" disabled>
+        Doubles Counter: <input id="doublesCounter" type="text" value="" size="5" disabled>
+        Total Rolls: <input id="totalRolls" type="text" value="" size="5" disabled>
+
+        <button type="button" autofocus onclick="RollDice()">Roll Dice</button><br><br> <!--Calls the RollDice() method when the button is clicked-->
+    </body>
+</html>

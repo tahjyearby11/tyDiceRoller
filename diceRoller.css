@@ -1,0 +1,22 @@
+body{
+    background-image: url(monopoly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+input{
+    text-align: right;
+    font-family: arial;
+}
+h1{
+    font-size: 50px;
+    font-family: arial;
+    text-align: left;
+    color: black;
+}
+h2{
+    font-size: 32.5px;
+    font-family: arial;
+    text-align: left;
+    color: red;
+}
